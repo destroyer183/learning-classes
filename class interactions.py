@@ -56,9 +56,6 @@ class Course:
         return value / len(self.students)
 
 
-        pass
-
-
     
 
 

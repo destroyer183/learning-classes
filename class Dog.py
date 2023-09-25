@@ -3,12 +3,12 @@
 class Dog:
 
     # this is a special method. whenever a new dog instance is created (line 23), init will be called, 
-    # and any arguments located inside it will be passed to the init method.
+        # and any arguments located inside it will be passed to the init method.
     def __init__(self, input, num, age):
 
         print(f"self: {self}\n")
 
-        # this is an 'attribute' of the class 'Dog' which is 'name', that is equal to the argument 'input'
+        # this is an 'attribute' of the class 'Dog' which is 'name', that is equal to the argument 'input'.
         # every time a new 'Dog' object is created, you will pass a name with the 'name' parameter.
 
         # the point of this attribute is that it is stored permanently, for each specific object.
